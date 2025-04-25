@@ -4,7 +4,7 @@
 // Created on: Apr 2025
 // This file contains the JS functions for index.html
 
-const randomNumber = Math.floor(Math.random())
+const randomNumber = Math.floor(Math.random() * 6) + 1
 
 /**
 * This function checks if the user has selected the random number from above
